@@ -1,0 +1,7 @@
+task,metric,value
+baseline,notebook_rf_holdout_accuracy,0.756701030927835
+baseline,notebook_rf_cv_accuracy_mean,0.7393814432989692
+baseline,notebook_linear_holdout_mse_unrounded,1.3892380262053599
+baseline,notebook_linear_holdout_r2_unrounded,0.8624538516488457
+baseline,notebook_linear_holdout_mse_rounded,1.5690721649484536
+baseline,notebook_linear_holdout_r2_rounded,0.8446487724186698

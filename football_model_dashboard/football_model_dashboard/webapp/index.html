@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football Model Dashboard</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand-mark" href="#top">FP</a>
+        <nav class="site-nav">
+          <a class="nav-pill" href="#predict">Live</a>
+          <a class="nav-pill" href="#compare">Models</a>
+          <a class="nav-pill" href="#awards">Awards</a>
+          <a class="nav-pill" href="#dataset-lab">Batch</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero-panel" id="top">
+          <div class="eyebrow">Model Refresh Dashboard</div>
+          <div class="hero-grid">
+            <div>
+              <h1 id="hero-title">Football Models.
+Made Visible.</h1>
+              <p class="hero-copy" id="hero-subtitle">
+                A Wise-inspired dashboard for accuracy, comparisons, findings, and live model-backed predictions.
+              </p>
+              <div class="hero-actions">
+                <a class="primary-pill" href="#compare">See Comparisons</a>
+                <a class="secondary-pill" href="#predict">Open Live Predictor</a>
+              </div>
+            </div>
+            <div class="hero-side-card">
+              <div class="side-kicker">Current scope</div>
+              <div id="hero-meta" class="hero-meta-grid"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="predict-section" id="predict">
+          <div class="section-head inverted">
+            <div class="eyebrow">Live Predictor</div>
+            <h2>Run the exported models on your own player profile.</h2>
+            <p id="predictor-note" class="predictor-note"></p>
+          </div>
+
+          <div class="predict-grid">
+            <article class="predict-card">
+              <div class="card-kicker">Position Classifier</div>
+              <h3>Same-season stat-line benchmarking.</h3>
+              <form id="position-form" class="model-form"></form>
+              <div id="position-result" class="result-panel empty-state">
+                Submit a profile to see position probabilities and derived role metrics.
+              </div>
+            </article>
+
+            <article class="predict-card">
+              <div class="card-kicker">Goals Regressor</div>
+              <h3>Leakage-safe goal prediction.</h3>
+              <label class="sync-toggle">
+                <input id="sync-position-toggle" type="checkbox" checked />
+                Use the last predicted position inside the goals model
+              </label>
+              <form id="goals-form" class="model-form"></form>
+              <div id="goals-result" class="result-panel empty-state">
+                Submit a profile to estimate goals, percentile, and derived attacking rates.
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-block" id="awards">
+          <div class="section-head">
+            <div class="eyebrow">Award Radar</div>
+            <h2>Ballon d'Or-style candidates from the database.</h2>
+            <p id="award-subtitle" class="section-copy"></p>
+            <div id="award-model-stack" class="model-stack"></div>
+            <div id="award-how" class="how-list"></div>
+          </div>
+          <div id="award-insights" class="award-insight-grid"></div>
+          <div id="award-candidates" class="candidate-grid"></div>
+          <div class="surface-card award-footnote">
+            <div class="card-kicker">League Leaders</div>
+            <div id="award-leaders" class="leader-grid"></div>
+            <p id="award-methodology" class="award-methodology"></p>
+          </div>
+        </section>
+
+        <section class="section-block" id="scoreboard">
+          <div class="section-head">
+            <div class="eyebrow">Scoreboard</div>
+            <h2>Accuracy, lift, and leakage in one glance.</h2>
+          </div>
+          <div class="kpi-grid" id="kpi-grid"></div>
+        </section>
+
+        <section class="section-block split-block" id="compare">
+          <div class="section-head">
+            <div class="eyebrow">Comparisons</div>
+            <h2>How the models stack up across both tasks.</h2>
+          </div>
+          <div class="split-grid">
+            <article class="surface-card">
+              <div class="card-kicker">Classification</div>
+              <h3>Position accuracy plus real player examples.</h3>
+              <div id="classification-chart" class="chart-stack"></div>
+              <div id="position-examples" class="example-stack"></div>
+            </article>
+
+            <article class="surface-card">
+              <div class="card-kicker">Regression</div>
+              <h3>Goals prediction strength with player-by-player examples.</h3>
+              <div id="regression-chart" class="chart-stack"></div>
+              <div id="goal-examples" class="example-stack"></div>
+              <div id="baseline-callout" class="baseline-callout"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-block" id="findings">
+          <div class="section-head">
+            <div class="eyebrow">Findings</div>
+            <h2>What the refresh actually changed.</h2>
+          </div>
+          <div class="findings-grid" id="findings-grid"></div>
+        </section>
+
+        <section class="section-block diagnostics-block" id="diagnostics">
+          <div class="section-head">
+            <div class="eyebrow">Diagnostics</div>
+            <h2>Per-class behavior and confusion hotspots.</h2>
+          </div>
+          <div class="split-grid">
+            <article class="surface-card">
+              <div class="card-kicker">Shared Base</div>
+              <h3>Best-model confusion matrix.</h3>
+              <div id="combined-matrix"></div>
+              <div id="combined-classes" class="class-card-grid"></div>
+            </article>
+
+            <article class="surface-card">
+              <div class="card-kicker">Detailed 2024/25</div>
+              <h3>Best-model confusion matrix.</h3>
+              <div id="detailed-matrix"></div>
+              <div id="detailed-classes" class="class-card-grid"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-block split-block" id="features">
+          <div class="section-head">
+            <div class="eyebrow">Signals</div>
+            <h2>Which features carry the strongest pull.</h2>
+          </div>
+          <div class="triple-grid">
+            <article class="surface-card">
+              <div class="card-kicker">Shared Classification</div>
+              <h3>Top proxy features.</h3>
+              <div id="classification-features"></div>
+            </article>
+            <article class="surface-card">
+              <div class="card-kicker">Detailed Classification</div>
+              <h3>Richer tactical signal.</h3>
+              <div id="detailed-classification-features"></div>
+            </article>
+            <article class="surface-card">
+              <div class="card-kicker">Goals Regression</div>
+              <h3>Strongest ElasticNet coefficients.</h3>
+              <div id="regression-features"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-block dataset-section" id="dataset-lab">
+          <div class="section-head">
+            <div class="eyebrow">Dataset Lab</div>
+            <h2>Upload a CSV and score every player in one run.</h2>
+            <p class="section-copy">
+              Add a dataset with the same core stat columns and the dashboard will return
+              classification predictions, goals regression output, and the top 10 players from that file.
+            </p>
+          </div>
+
+          <div class="split-grid dataset-upload-grid">
+            <article class="surface-card">
+              <div class="card-kicker">Batch Predictor</div>
+              <h3>Run both exported models on a full dataset.</h3>
+              <form id="dataset-form" class="model-form" onsubmit="console.log('inline form submit'); event.preventDefault(); handleDatasetSubmit(event); return false;">
+                <section class="form-group">
+                  <h4>Upload CSV</h4>
+                  <div class="field file-field">
+                    <label for="dataset-file">Choose CSV file</label>
+                    <input id="dataset-file" name="dataset-file" type="file" accept=".csv,text/csv" required />
+                  </div>
+                </section>
+                <section class="form-group">
+                  <h4>Models In Use</h4>
+                  <div class="field-grid">
+                    <div class="field">
+                      <label for="dataset-position-model">Position model</label>
+                      <select id="dataset-position-model" name="positionModel">
+                        <option value="HistGradientBoosting" selected>HistGradientBoosting</option>
+                      </select>
+                    </div>
+                    <div class="field">
+                      <label for="dataset-goals-model">Goals model</label>
+                      <select id="dataset-goals-model" name="goalsModel">
+                        <option value="ElasticNet" selected>ElasticNet</option>
+                      </select>
+                    </div>
+                  </div>
+                  <label class="sync-toggle">
+                    <input id="dataset-sync-position" type="checkbox" checked />
+                    Use the predicted position for the goals model on every row
+                  </label>
+                </section>
+                <p class="form-note">
+                  Recommended columns: Player, Nation, Squad, Comp, Pos, season, Age, Born, MP, Starts, Min, 90s,
+                  Gls, Ast, PK, PKatt, CrdY, CrdR, xG, npxG, xAG, PrgC, PrgP, PrgR. Missing fields will fall back
+                  to the training defaults.
+                </p>
+                <button class="submit-button" type="submit">Run Dataset Predictions</button>
+                <p class="form-note">
+                  If the dashboard is not fully loaded, start the server and refresh the page at <strong>http://127.0.0.1:8000</strong>.
+                </p>
+              </form>
+            </article>
+
+            <article class="surface-card">
+              <div class="card-kicker">Run Summary</div>
+              <h3>Coverage, warnings, and model setup.</h3>
+              <div id="dataset-summary" class="result-panel empty-state">
+                Upload a CSV to generate regression and classification predictions across the whole file.
+              </div>
+            </article>
+          </div>
+
+          <div class="split-grid dataset-results-grid">
+            <article class="surface-card">
+              <div class="card-kicker">Top 10 Ballon d'Or Candidates</div>
+              <h3>Highest composite scores from the uploaded dataset.</h3>
+              <div id="dataset-top10" class="dataset-top-grid">
+                <div class="loading-card">Run a dataset to see the Ballon d'Or candidates.</div>
+              </div>
+            </article>
+
+            <article class="surface-card">
+              <div class="card-kicker">League Leaders</div>
+              <h3>Top 5 predicted-goal players per league.</h3>
+              <div id="dataset-league-top5" class="dataset-league-grid">
+                <div class="loading-card">Run a dataset to see league leaders.</div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <script src="/app.js?v=2"></script>
+    <script>
+      console.log('Inline bottom script loaded');
+      const datasetForm = document.getElementById('dataset-form');
+      if (datasetForm) {
+        console.log('Inline bottom script found dataset-form');
+      } else {
+        console.log('Inline bottom script did NOT find dataset-form');
+      }
+    </script>
+  </body>
+</html>

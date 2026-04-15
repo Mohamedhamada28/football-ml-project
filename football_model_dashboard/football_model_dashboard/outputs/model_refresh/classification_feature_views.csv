@@ -1,0 +1,241 @@
+task,experiment,model,target_class,feature,view_type,value,rank
+classification,combined_base,LogisticRegression,DF,Starts,coefficient,-2.581791232144801,1
+classification,combined_base,LogisticRegression,DF,90s,coefficient,1.6934043558569538,2
+classification,combined_base,LogisticRegression,DF,Min,coefficient,1.6588459327568366,3
+classification,combined_base,LogisticRegression,DF,Squad_Leverkusen,coefficient,1.5020201309221788,4
+classification,combined_base,LogisticRegression,DF,PrgP_per90,coefficient,1.3334337354276609,5
+classification,combined_base,LogisticRegression,DF,Squad_St. Pauli,coefficient,-1.2357421957604597,6
+classification,combined_base,LogisticRegression,DF,Squad_Inter,coefficient,1.190997891573122,7
+classification,combined_base,LogisticRegression,DF,Squad_Bayern Munich,coefficient,1.0620454352288948,8
+classification,combined_base,LogisticRegression,DF,Squad_Arsenal,coefficient,1.039901280733237,9
+classification,combined_base,LogisticRegression,DF,Squad_Metz,coefficient,-1.0099786908726098,10
+classification,combined_base,LogisticRegression,DF,Squad_Barcelona,coefficient,0.9800821001531361,11
+classification,combined_base,LogisticRegression,DF,Squad_Atalanta,coefficient,0.9452426878857128,12
+classification,combined_base,LogisticRegression,DF,Squad_Roma,coefficient,0.8873041530479979,13
+classification,combined_base,LogisticRegression,DF,Squad_Monaco,coefficient,0.8486641998018106,14
+classification,combined_base,LogisticRegression,DF,Nation_CGO,coefficient,-0.7841582709469445,15
+classification,combined_base,LogisticRegression,DF,Squad_Espanyol,coefficient,-0.6852989181236722,16
+classification,combined_base,LogisticRegression,DF,Squad_Atlético Madrid,coefficient,0.6818232159467392,17
+classification,combined_base,LogisticRegression,DF,Nation_GRE,coefficient,0.6778590563344781,18
+classification,combined_base,LogisticRegression,DF,MP,coefficient,-0.6746592748540315,19
+classification,combined_base,LogisticRegression,DF,Squad_Liverpool,coefficient,0.6698484597988961,20
+classification,combined_base,LogisticRegression,FW,Squad_Leverkusen,coefficient,-2.2168680759859507,1
+classification,combined_base,LogisticRegression,FW,PrgR_per90,coefficient,1.205352621841032,2
+classification,combined_base,LogisticRegression,FW,Squad_Villarreal,coefficient,-1.1904312450406491,3
+classification,combined_base,LogisticRegression,FW,Min,coefficient,-1.1697120138851345,4
+classification,combined_base,LogisticRegression,FW,90s,coefficient,-1.1560161404538551,5
+classification,combined_base,LogisticRegression,FW,Nation_CHI,coefficient,1.025097709010417,6
+classification,combined_base,LogisticRegression,FW,Squad_Roma,coefficient,-1.0061122424299207,7
+classification,combined_base,LogisticRegression,FW,Squad_Inter,coefficient,-0.9927569518277749,8
+classification,combined_base,LogisticRegression,FW,Nation_CPV,coefficient,-0.9676627425383839,9
+classification,combined_base,LogisticRegression,FW,Squad_Atlético Madrid,coefficient,-0.9471062881319215,10
+classification,combined_base,LogisticRegression,FW,Squad_Monaco,coefficient,-0.9463051126917562,11
+classification,combined_base,LogisticRegression,FW,Squad_Atalanta,coefficient,-0.9372225988618255,12
+classification,combined_base,LogisticRegression,FW,Squad_Betis,coefficient,0.9195164699597527,13
+classification,combined_base,LogisticRegression,FW,npxG+xAG_per90,coefficient,0.8778703652158939,14
+classification,combined_base,LogisticRegression,FW,Squad_Southampton,coefficient,0.8763125713488122,15
+classification,combined_base,LogisticRegression,FW,Squad_RB Leipzig,coefficient,-0.869945371030322,16
+classification,combined_base,LogisticRegression,FW,Squad_Arsenal,coefficient,-0.8605601811247405,17
+classification,combined_base,LogisticRegression,FW,Nation_NED,coefficient,-0.8247661054946023,18
+classification,combined_base,LogisticRegression,FW,Squad_Fulham,coefficient,0.8233962085524855,19
+classification,combined_base,LogisticRegression,FW,Squad_Barcelona,coefficient,-0.8078687782112123,20
+classification,combined_base,LogisticRegression,GK,PrgP_per90,coefficient,-4.087289166620694,1
+classification,combined_base,LogisticRegression,GK,PrgP,coefficient,-1.7804960140686015,2
+classification,combined_base,LogisticRegression,GK,PrgC_per90,coefficient,-1.2987406248538615,3
+classification,combined_base,LogisticRegression,GK,CrdY,coefficient,-1.1173298614769152,4
+classification,combined_base,LogisticRegression,GK,npxG_per90,coefficient,-1.1151446574252384,5
+classification,combined_base,LogisticRegression,GK,Squad_Marseille,coefficient,1.100019138235204,6
+classification,combined_base,LogisticRegression,GK,xG_per90,coefficient,-1.0215178594366352,7
+classification,combined_base,LogisticRegression,GK,start_rate,coefficient,0.992068040034014,8
+classification,combined_base,LogisticRegression,GK,PrgR_per90,coefficient,-0.8967006137623447,9
+classification,combined_base,LogisticRegression,GK,npxG+xAG_per90,coefficient,-0.8697399787229848,10
+classification,combined_base,LogisticRegression,GK,Squad_Angers,coefficient,-0.8433268149656832,11
+classification,combined_base,LogisticRegression,GK,Min,coefficient,0.8049292945422666,12
+classification,combined_base,LogisticRegression,GK,Nation_CIV,coefficient,-0.8047614799622531,13
+classification,combined_base,LogisticRegression,GK,90s,coefficient,0.7970005170160104,14
+classification,combined_base,LogisticRegression,GK,Nation_ESP,coefficient,0.7821710827273873,15
+classification,combined_base,LogisticRegression,GK,MP,coefficient,-0.7191376362030198,16
+classification,combined_base,LogisticRegression,GK,Comp_Bundesliga,coefficient,0.6510530359940674,17
+classification,combined_base,LogisticRegression,GK,Nation_BEN,coefficient,-0.6385042050897612,18
+classification,combined_base,LogisticRegression,GK,npxG,coefficient,-0.5305162012720805,19
+classification,combined_base,LogisticRegression,GK,Squad_Leganés,coefficient,-0.5209791139251039,20
+classification,combined_base,LogisticRegression,MF,PrgP_per90,coefficient,2.1340329532709013,1
+classification,combined_base,LogisticRegression,MF,Starts,coefficient,1.6255599867422672,2
+classification,combined_base,LogisticRegression,MF,90s,coefficient,-1.3343887324191066,3
+classification,combined_base,LogisticRegression,MF,Min,coefficient,-1.2940632134139358,4
+classification,combined_base,LogisticRegression,MF,PrgP,coefficient,1.2100595730390014,5
+classification,combined_base,LogisticRegression,MF,Squad_Chelsea,coefficient,-0.8729916938072974,6
+classification,combined_base,LogisticRegression,MF,Nation_CHI,coefficient,-0.8642699417228633,7
+classification,combined_base,LogisticRegression,MF,Squad_Paris S-G,coefficient,-0.8186830156134807,8
+classification,combined_base,LogisticRegression,MF,Squad_Luton Town,coefficient,0.8133840878111264,9
+classification,combined_base,LogisticRegression,MF,xG_per90,coefficient,0.788629847379101,10
+classification,combined_base,LogisticRegression,MF,Squad_RB Leipzig,coefficient,0.7596526638857064,11
+classification,combined_base,LogisticRegression,MF,Squad_Liverpool,coefficient,-0.7586178917078789,12
+classification,combined_base,LogisticRegression,MF,PKatt,coefficient,-0.7574749425530473,13
+classification,combined_base,LogisticRegression,MF,Squad_Crystal Palace,coefficient,0.7512104437235775,14
+classification,combined_base,LogisticRegression,MF,Nation_BFA,coefficient,-0.7400818592513636,15
+classification,combined_base,LogisticRegression,MF,Nation_ZIM,coefficient,0.7271674489758834,16
+classification,combined_base,LogisticRegression,MF,start_rate,coefficient,-0.7180804026438612,17
+classification,combined_base,LogisticRegression,MF,Squad_Granada,coefficient,0.7074829262852765,18
+classification,combined_base,LogisticRegression,MF,MP,coefficient,0.7011396545816112,19
+classification,combined_base,LogisticRegression,MF,Squad_Monza,coefficient,0.6768511159893995,20
+classification,combined_base,RandomForest,__global__,PrgR_per90,importance,0.09168045766787901,1
+classification,combined_base,RandomForest,__global__,PrgP_per90,importance,0.08089726165168812,2
+classification,combined_base,RandomForest,__global__,xG_per90,importance,0.06543562525818475,3
+classification,combined_base,RandomForest,__global__,PrgP,importance,0.061526452879801345,4
+classification,combined_base,RandomForest,__global__,npxG+xAG_per90,importance,0.054702747978957675,5
+classification,combined_base,RandomForest,__global__,npxG_per90,importance,0.05417690645828272,6
+classification,combined_base,RandomForest,__global__,PrgR,importance,0.05383609814660523,7
+classification,combined_base,RandomForest,__global__,PrgC,importance,0.04883709378189584,8
+classification,combined_base,RandomForest,__global__,PrgC_per90,importance,0.046851942428349315,9
+classification,combined_base,RandomForest,__global__,npxG,importance,0.03483848665821953,10
+classification,combined_base,RandomForest,__global__,npxG+xAG,importance,0.031222572844586002,11
+classification,combined_base,RandomForest,__global__,start_rate,importance,0.03044623331388545,12
+classification,combined_base,RandomForest,__global__,xG,importance,0.030271692582039867,13
+classification,combined_base,RandomForest,__global__,G+A_per90,importance,0.02569547808861008,14
+classification,combined_base,RandomForest,__global__,xAG_per90,importance,0.025096877900818607,15
+classification,combined_base,RandomForest,__global__,Gls_per90,importance,0.02384148565767053,16
+classification,combined_base,RandomForest,__global__,xAG,importance,0.022248441222041306,17
+classification,combined_base,RandomForest,__global__,G-PK_per90,importance,0.021260135562982205,18
+classification,combined_base,RandomForest,__global__,Min,importance,0.01726919810921566,19
+classification,combined_base,RandomForest,__global__,90s,importance,0.016194013525642623,20
+classification,combined_base,ExtraTrees,__global__,PrgP_per90,importance,0.07563139644263595,1
+classification,combined_base,ExtraTrees,__global__,npxG+xAG_per90,importance,0.05798974348918158,2
+classification,combined_base,ExtraTrees,__global__,PrgP,importance,0.054835285771044996,3
+classification,combined_base,ExtraTrees,__global__,npxG_per90,importance,0.051437609424028495,4
+classification,combined_base,ExtraTrees,__global__,PrgR_per90,importance,0.050426497654298214,5
+classification,combined_base,ExtraTrees,__global__,start_rate,importance,0.04800566532132381,6
+classification,combined_base,ExtraTrees,__global__,xG_per90,importance,0.0423129753882329,7
+classification,combined_base,ExtraTrees,__global__,PrgR,importance,0.04084220060595817,8
+classification,combined_base,ExtraTrees,__global__,npxG+xAG,importance,0.04018236454019279,9
+classification,combined_base,ExtraTrees,__global__,npxG,importance,0.03581710387749848,10
+classification,combined_base,ExtraTrees,__global__,xG,importance,0.03460499419557368,11
+classification,combined_base,ExtraTrees,__global__,PrgC_per90,importance,0.03436028638365771,12
+classification,combined_base,ExtraTrees,__global__,G+A_per90,importance,0.03274187609290532,13
+classification,combined_base,ExtraTrees,__global__,PrgC,importance,0.02385450931641382,14
+classification,combined_base,ExtraTrees,__global__,Gls_per90,importance,0.022067439389690295,15
+classification,combined_base,ExtraTrees,__global__,xAG_per90,importance,0.021211867814789367,16
+classification,combined_base,ExtraTrees,__global__,G-PK_per90,importance,0.021091549132924544,17
+classification,combined_base,ExtraTrees,__global__,Gls,importance,0.01766665610150235,18
+classification,combined_base,ExtraTrees,__global__,xAG,importance,0.017643167132020944,19
+classification,combined_base,ExtraTrees,__global__,90s,importance,0.01741779007471001,20
+classification,detailed_2024_2025,LogisticRegression,DF,Clr,coefficient,1.8852735774586054,1
+classification,detailed_2024_2025,LogisticRegression,DF,TI,coefficient,1.4228764871243533,2
+classification,detailed_2024_2025,LogisticRegression,DF,Squad_Celta Vigo,coefficient,-1.3516641477761238,3
+classification,detailed_2024_2025,LogisticRegression,DF,PrgDist_stats_possession,coefficient,1.1051979263196774,4
+classification,detailed_2024_2025,LogisticRegression,DF,Squad_St. Pauli,coefficient,-1.0638266880015954,5
+classification,detailed_2024_2025,LogisticRegression,DF,CrsPA,coefficient,0.8989996567275447,6
+classification,detailed_2024_2025,LogisticRegression,DF,Sh_stats_defense,coefficient,0.8324930412594126,7
+classification,detailed_2024_2025,LogisticRegression,DF,Nation_MAR,coefficient,-0.7921734913972522,8
+classification,detailed_2024_2025,LogisticRegression,DF,Min%,coefficient,-0.7687791152435105,9
+classification,detailed_2024_2025,LogisticRegression,DF,Nation_GRE,coefficient,-0.7432515370668564,10
+classification,detailed_2024_2025,LogisticRegression,DF,Min,coefficient,-0.7053236676918706,11
+classification,detailed_2024_2025,LogisticRegression,DF,Def 3rd_stats_possession,coefficient,0.6976364623577705,12
+classification,detailed_2024_2025,LogisticRegression,DF,90s,coefficient,-0.6924734060540075,13
+classification,detailed_2024_2025,LogisticRegression,DF,xG+/-,coefficient,0.6654586604482398,14
+classification,detailed_2024_2025,LogisticRegression,DF,TO,coefficient,-0.6594081333338119,15
+classification,detailed_2024_2025,LogisticRegression,DF,Nation_NED,coefficient,0.6581382156990745,16
+classification,detailed_2024_2025,LogisticRegression,DF,PassLive,coefficient,-0.652329872647835,17
+classification,detailed_2024_2025,LogisticRegression,DF,Pass,coefficient,-0.6293960102496372,18
+classification,detailed_2024_2025,LogisticRegression,DF,Squad_Bochum,coefficient,0.6149536840684805,19
+classification,detailed_2024_2025,LogisticRegression,DF,Succ,coefficient,0.5999797524322381,20
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Toulouse,coefficient,-1.374782626521569,1
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Celta Vigo,coefficient,1.2989683004484711,2
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Leverkusen,coefficient,-1.1261406058493486,3
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Crystal Palace,coefficient,-1.1184677285770992,4
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Auxerre,coefficient,-1.052638032606761,5
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Freiburg,coefficient,1.0432548110218889,6
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Wolves,coefficient,-1.02276871377955,7
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Valladolid,coefficient,-0.9561919970179352,8
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Atalanta,coefficient,-0.9097272342724702,9
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Bochum,coefficient,-0.8842798969056532,10
+classification,detailed_2024_2025,LogisticRegression,FW,Sh_stats_defense,coefficient,-0.8522391918346323,11
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Fiorentina,coefficient,0.8402900352859433,12
+classification,detailed_2024_2025,LogisticRegression,FW,PrgDist_stats_possession,coefficient,-0.8360458811031216,13
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Paris S-G,coefficient,0.8283312414273644,14
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Napoli,coefficient,0.8212323614968154,15
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Lyon,coefficient,0.8107391749312546,16
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Hellas Verona,coefficient,-0.7874067138678064,17
+classification,detailed_2024_2025,LogisticRegression,FW,Def 3rd_stats_possession,coefficient,-0.7782933627767122,18
+classification,detailed_2024_2025,LogisticRegression,FW,Squad_Espanyol,coefficient,-0.7668480115679251,19
+classification,detailed_2024_2025,LogisticRegression,FW,TI,coefficient,-0.7660050148734467,20
+classification,detailed_2024_2025,LogisticRegression,GK,Def Pen,coefficient,0.7452085855659447,1
+classification,detailed_2024_2025,LogisticRegression,GK,PrgDist,coefficient,0.46311860349021683,2
+classification,detailed_2024_2025,LogisticRegression,GK,Mn/MP,coefficient,0.43509145177858993,3
+classification,detailed_2024_2025,LogisticRegression,GK,Dead,coefficient,0.40406739284187065,4
+classification,detailed_2024_2025,LogisticRegression,GK,Def 3rd_stats_possession,coefficient,0.37171707207236987,5
+classification,detailed_2024_2025,LogisticRegression,GK,FK_stats_passing_types,coefficient,0.349545696569341,6
+classification,detailed_2024_2025,LogisticRegression,GK,unSub,coefficient,0.33930878375103674,7
+classification,detailed_2024_2025,LogisticRegression,GK,Compl,coefficient,0.30622559427093937,8
+classification,detailed_2024_2025,LogisticRegression,GK,Won%,coefficient,0.30589587165036486,9
+classification,detailed_2024_2025,LogisticRegression,GK,Cmp%,coefficient,-0.2891180200458077,10
+classification,detailed_2024_2025,LogisticRegression,GK,Mn/Start,coefficient,0.27298408861589923,11
+classification,detailed_2024_2025,LogisticRegression,GK,Err,coefficient,0.24670280820339982,12
+classification,detailed_2024_2025,LogisticRegression,GK,OG_stats_keeper_adv,coefficient,0.24594000434499963,13
+classification,detailed_2024_2025,LogisticRegression,GK,onxG,coefficient,0.24487876673937886,14
+classification,detailed_2024_2025,LogisticRegression,GK,Min%,coefficient,0.23723672262007056,15
+classification,detailed_2024_2025,LogisticRegression,GK,Mid 3rd_stats_possession,coefficient,-0.23409900973092637,16
+classification,detailed_2024_2025,LogisticRegression,GK,SCA90,coefficient,-0.23050123351200094,17
+classification,detailed_2024_2025,LogisticRegression,GK,90s,coefficient,0.22353813201071707,18
+classification,detailed_2024_2025,LogisticRegression,GK,Min,coefficient,0.22333665266980757,19
+classification,detailed_2024_2025,LogisticRegression,GK,onxGA,coefficient,0.21459132844946818,20
+classification,detailed_2024_2025,LogisticRegression,MF,Clr,coefficient,-1.3200342326219918,1
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Auxerre,coefficient,1.1088646739841497,2
+classification,detailed_2024_2025,LogisticRegression,MF,Carries,coefficient,-1.0853540224237679,3
+classification,detailed_2024_2025,LogisticRegression,MF,Mid 3rd_stats_possession,coefficient,0.9720143235927501,4
+classification,detailed_2024_2025,LogisticRegression,MF,Nation_MAR,coefficient,0.8975196927292604,5
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Espanyol,coefficient,0.8759363239615421,6
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Toulouse,coefficient,0.8646600598801043,7
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Wolves,coefficient,0.8598446217892058,8
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Paris S-G,coefficient,-0.8379241387404966,9
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Lyon,coefficient,-0.7877934976313027,10
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Montpellier,coefficient,-0.7720115103076325,11
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Leverkusen,coefficient,0.7663220109234533,12
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Crystal Palace,coefficient,0.7626190224315776,13
+classification,detailed_2024_2025,LogisticRegression,MF,Succ,coefficient,-0.7571758736484776,14
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Rennes,coefficient,0.7325712344174596,15
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Freiburg,coefficient,-0.7281504607848842,16
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Osasuna,coefficient,-0.725552566582312,17
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Leicester City,coefficient,-0.7097881117291966,18
+classification,detailed_2024_2025,LogisticRegression,MF,Squad_Napoli,coefficient,-0.6742936985952254,19
+classification,detailed_2024_2025,LogisticRegression,MF,Nation_SVN,coefficient,0.6614858742876458,20
+classification,detailed_2024_2025,RandomForest,__global__,PrgR,importance,0.034668746099817474,1
+classification,detailed_2024_2025,RandomForest,__global__,TI,importance,0.031742965253516615,2
+classification,detailed_2024_2025,RandomForest,__global__,Def Pen,importance,0.031323323013622124,3
+classification,detailed_2024_2025,RandomForest,__global__,Sh/90,importance,0.031248876736680385,4
+classification,detailed_2024_2025,RandomForest,__global__,Att 3rd_stats_possession,importance,0.028164809067506572,5
+classification,detailed_2024_2025,RandomForest,__global__,SoT/90,importance,0.025632712557814526,6
+classification,detailed_2024_2025,RandomForest,__global__,PrgC,importance,0.025177992977466014,7
+classification,detailed_2024_2025,RandomForest,__global__,Att Pen,importance,0.021998748323091243,8
+classification,detailed_2024_2025,RandomForest,__global__,PrgR_stats_possession,importance,0.020867211227356353,9
+classification,detailed_2024_2025,RandomForest,__global__,npxG_stats_shooting,importance,0.020123096730569313,10
+classification,detailed_2024_2025,RandomForest,__global__,SCA90,importance,0.019893696758442117,11
+classification,detailed_2024_2025,RandomForest,__global__,Def 3rd_stats_possession,importance,0.019326690121370074,12
+classification,detailed_2024_2025,RandomForest,__global__,Clr,importance,0.01808753526930644,13
+classification,detailed_2024_2025,RandomForest,__global__,npxG,importance,0.017338195503874144,14
+classification,detailed_2024_2025,RandomForest,__global__,PrgP,importance,0.016816488605574317,15
+classification,detailed_2024_2025,RandomForest,__global__,Dis,importance,0.016258502739750196,16
+classification,detailed_2024_2025,RandomForest,__global__,xG+xAG,importance,0.01574785572647689,17
+classification,detailed_2024_2025,RandomForest,__global__,Mid 3rd_stats_possession,importance,0.01568925640671787,18
+classification,detailed_2024_2025,RandomForest,__global__,Dead,importance,0.015582470102226444,19
+classification,detailed_2024_2025,RandomForest,__global__,PrgP_stats_passing,importance,0.013746261967951359,20
+classification,detailed_2024_2025,ExtraTrees,__global__,TI,importance,0.024684699001547884,1
+classification,detailed_2024_2025,ExtraTrees,__global__,Def Pen,importance,0.022702442061765263,2
+classification,detailed_2024_2025,ExtraTrees,__global__,Sh/90,importance,0.021447332397818687,3
+classification,detailed_2024_2025,ExtraTrees,__global__,Def 3rd_stats_possession,importance,0.01730393425641208,4
+classification,detailed_2024_2025,ExtraTrees,__global__,SoT/90,importance,0.017257972892683614,5
+classification,detailed_2024_2025,ExtraTrees,__global__,Clr,importance,0.01598509069366645,6
+classification,detailed_2024_2025,ExtraTrees,__global__,xG+xAG,importance,0.015942005632623667,7
+classification,detailed_2024_2025,ExtraTrees,__global__,Mid 3rd,importance,0.014233743016570165,8
+classification,detailed_2024_2025,ExtraTrees,__global__,SCA90,importance,0.013839756046326795,9
+classification,detailed_2024_2025,ExtraTrees,__global__,Subs,importance,0.0132449223352852,10
+classification,detailed_2024_2025,ExtraTrees,__global__,Dead,importance,0.01312033789233009,11
+classification,detailed_2024_2025,ExtraTrees,__global__,PrgR_stats_possession,importance,0.012168121804718868,12
+classification,detailed_2024_2025,ExtraTrees,__global__,Mn/MP,importance,0.01182458979207906,13
+classification,detailed_2024_2025,ExtraTrees,__global__,Int_stats_misc,importance,0.011380771351396651,14
+classification,detailed_2024_2025,ExtraTrees,__global__,PrgDist,importance,0.011348007090955778,15
+classification,detailed_2024_2025,ExtraTrees,__global__,Compl,importance,0.011162169307244285,16
+classification,detailed_2024_2025,ExtraTrees,__global__,Dis,importance,0.011012699469296436,17
+classification,detailed_2024_2025,ExtraTrees,__global__,TklW,importance,0.010372468118854079,18
+classification,detailed_2024_2025,ExtraTrees,__global__,Mis,importance,0.010364476099219708,19
+classification,detailed_2024_2025,ExtraTrees,__global__,npxG+xAG,importance,0.009962943315982534,20
